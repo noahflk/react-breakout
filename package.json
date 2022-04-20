@@ -1,0 +1,43 @@
+{
+  "name": "react-breakout",
+  "version": "0.1.0",
+  "description": "Lightweight hook for responsive breakpoints in React components",
+  "author": "noahflk",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "bugs": {
+    "url": "https://github.com/noahflk/react-breakout/issues"
+  },
+  "homepage": "https://github.com/noahflk/react-breakout#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noahflk/react-breakout.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "responsive",
+    "breakpoint"
+  ],
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/runtime": "^7.3.1",
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "@types/react": "^17.0.0",
+    "react": "^17.0.0",
+    "rollup": "^2.22.1",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "typescript": "^3.2.4"
+  }
+}
