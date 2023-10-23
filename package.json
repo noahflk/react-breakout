@@ -35,7 +35,7 @@
     "@rollup/plugin-node-resolve": "^8.4.0",
     "@types/react": "^17.0.0",
     "react": "^17.0.0",
-    "rollup": "^2.22.1",
+    "rollup": "^4.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-typescript2": "^0.27.1",
     "typescript": "^3.2.4"
